@@ -48,15 +48,15 @@ const Board = React.createClass({
   }
 })
 
-// const Score = React.createClass({
-//   render() {
-//     return (  
-//       <div className="Score">
-//         <p>Your score is $ {this.props.score} </p>
-//       </div>
-//     )
-//   }
-// })
+const Score = React.createClass({
+  render() {
+    return (  
+      <div className="Score">
+        <p>Your score is $ {this.props.score} </p>
+      </div>
+    )
+  }
+})
 
 
 
