@@ -1,31 +1,31 @@
-// import React, { Component } from 'react';
-// import logo from './logo.svg';
-// import './App.css';
+import React, { Component } from 'react';
+import logo from './logo.svg';
+import './App.css';
 
-// const App = React.createClass({
-//   getInitialState() {
-//     return {
-//       score: 0,
-//       clue: {
-//         question: '1st Tuesday after the 1st Monday in November',
-//         answer: 'Election Day',
-//       }
-//     }
-//   },
+const App = React.createClass({
+  getInitialState() {
+    return {
+      score: 0,
+      clue: {
+        question: '1st Tuesday after the 1st Monday in November',
+        answer: 'Election Day',
+      }
+    }
+  },
   
-//   render(){
-//     return (  
-//       <div className="App">
-//         <Header 
-//           tagline={"A game where we tell you answers, and you ask us questions"}
-//           question={this.state.clue.question}/>
-//         <Board />
-//         <Score 
-//           score={this.state.score} />
-//       </div>
-//     )
-//   }
-// })
+  render(){
+    return (  
+      <div className="App">
+        <Header 
+          tagline={"A game where we tell you answers, and you ask us questions"}
+          question={this.state.clue.question}/>
+        <Board />
+        <Score 
+          score={this.state.score} />
+      </div>
+    )
+  }
+})
 
 // const Header = React.createClass({
 //   render() {
@@ -61,4 +61,4 @@
 
 
 
-// export default App;
+export default App;
