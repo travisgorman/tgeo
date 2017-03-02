@@ -38,15 +38,15 @@ const Header = React.createClass({
   }
 })
 
-// const Board = React.createClass({
-//   render() {
-//     return (  
-//       <div className="Board">
-//         <p>This is the gameboard. It contains 6 CATEGORIES</p>
-//       </div>
-//     )
-//   }
-// })
+const Board = React.createClass({
+  render() {
+    return (  
+      <div className="Board">
+        <p>This is the gameboard. It contains 6 CATEGORIES</p>
+      </div>
+    )
+  }
+})
 
 // const Score = React.createClass({
 //   render() {
