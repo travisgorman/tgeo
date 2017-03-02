@@ -137,7 +137,7 @@ let categories =
 			{
 				id: 79552,
 				answer: "the Free Soil Party",
-				question: ""Free" political party formed in 1848 to oppose the extension of slavery",
+				question: "'Free' political party formed in 1848 to oppose the extension of slavery",
 				value: 800,
 				airdate: "2007-03-05T12:00:00.000Z",
 				category_id: 1,
@@ -187,7 +187,7 @@ let categories =
 			{
 				id: 122849,
 				answer: "left-wing and right-wing",
-				question: "(Here's Kelly.) The seating arrangement used today in France's legislature is the same as in the 18th century, when these two directional 2-word terms for conservatives and liberals originated",
+				question: "The seating arrangement used today in France's legislature is the same as in the 18th century, when these two directional 2-word terms for conservatives and liberals originated",
 				value: 400,
 				airdate: "2014-07-08T12:00:00.000Z",
 				category_id: 1,
@@ -237,7 +237,7 @@ let categories =
 			{
 				id: 146218,
 				answer: "left-wing and right-wing",
-				question: "(Here's Kelly.) The seating arrangement used today in France's legislature is the same as in the 18th century, when these two directional 2-word terms for conservatives and liberals originated",
+				question: "The seating arrangement used today in France's legislature is the same as in the 18th century, when these two directional 2-word terms for conservatives and liberals originated",
 				value: 400,
 				airdate: "2014-07-08T12:00:00.000Z",
 				category_id: 1,
@@ -341,7 +341,7 @@ clues: [
 {
 id: 130683,
 answer: "the nuclear football",
-question: "(Sarah of the Clue Crew gives the clue from the Ronald Reagan Library in Simi Valley, CA..) This briefcase that goes everywhere the president goes, including here on Air Force One, contains the codes needed to order the Pentagon to launch atomic weapons; known as the president's emergency satchel, it's been nicknamed this sports term",
+question: "This briefcase that goes everywhere the president goes, including here on Air Force One, contains the codes needed to order the Pentagon to launch atomic weapons; known as the president's emergency satchel, it's been nicknamed this sports term",
 value: 400,
 airdate: "2014-11-07T12:00:00.000Z",
 category_id: 18000,
@@ -351,7 +351,7 @@ invalid_count: null
 {
 id: 130689,
 answer: "verify",
-question: "(Sarah of the Clue Crew gives the clue from the Ronald Reagan Library in Simi Valley, CA.) Ronald Reagan held four major summit meetings with Mikhail Gorbachev that led to the signing of the INF Treaty; it was during the 1986 Reykjavik Summit that Reagan began using the old Russian proverb "trust, but..." do this",
+question: "Ronald Reagan held four major summit meetings with Mikhail Gorbachev that led to the signing of the INF Treaty; it was during the 1986 Reykjavik Summit that Reagan began using the old Russian proverb 'trust, but...' do this",
 value: 600,
 airdate: "2014-11-07T12:00:00.000Z",
 category_id: 18000,
@@ -361,7 +361,7 @@ invalid_count: null
 {
 id: 130695,
 answer: "G7",
-question: "(Kelly of the Clue Crew gives the clue from the Ronald Reagan Library in Simi Valley, CA.) The stateroom on Air Force One allowed Reagan to work in private while traveling, like in 1982, en route to a meeting of this economic group that in 2014 went back to its original alphanumeric name",
+question: "The stateroom on Air Force One allowed Reagan to work in private while traveling, like in 1982, en route to a meeting of this economic group that in 2014 went back to its original alphanumeric name",
 value: 800,
 airdate: "2014-11-07T12:00:00.000Z",
 category_id: 18000,
@@ -371,7 +371,7 @@ invalid_count: null
 {
 id: 130701,
 answer: "Libya",
-question: "(Kelly of the Clue Crew gives the clue from the Ronald Reagan Library in Simi Valley, CA.) On August 19, 1981, an international incident occurred when two U.S. Navy F-14s flying patrol over the Gulf of Sidra were attacked by two fighter jets flown by this country; the Tomcats returned fire, downing both enemy aircraft",
+question: "On August 19, 1981, an international incident occurred when two U.S. Navy F-14s flying patrol over the Gulf of Sidra were attacked by two fighter jets flown by this country; the Tomcats returned fire, downing both enemy aircraft",
 value: null,
 airdate: "2014-11-07T12:00:00.000Z",
 category_id: 18000,
@@ -381,7 +381,7 @@ invalid_count: null
 {
 id: 154136,
 answer: "(Margaret) Thatcher",
-question: "(Sarah of the Clue Crew gives the clue from the Ronald Reagan Library in Simi Valley, CA.) This fine china was among the White House dinnerware used in the formal state dinners hosted by the Reagans; the first, in 1981, & the last, in 1988, both honored this world leader, who was accompanied by her husband Denis",
+question: "This fine china was among the White House dinnerware used in the formal state dinners hosted by the Reagans; the first, in 1981, & the last, in 1988, both honored this world leader, who was accompanied by her husband Denis",
 value: 200,
 airdate: "2014-11-07T12:00:00.000Z",
 category_id: 18000,
@@ -391,7 +391,7 @@ invalid_count: null
 {
 id: 154142,
 answer: "the nuclear football",
-question: "(Sarah of the Clue Crew gives the clue from the Ronald Reagan Library in Simi Valley, CA..) This briefcase that goes everywhere the president goes, including here on Air Force One, contains the codes needed to order the Pentagon to launch atomic weapons; known as the president's emergency satchel, it's been nicknamed this sports term",
+question: "This briefcase that goes everywhere the president goes, including here on Air Force One, contains the codes needed to order the Pentagon to launch atomic weapons; known as the president's emergency satchel, it's been nicknamed this sports term",
 value: 400,
 airdate: "2014-11-07T12:00:00.000Z",
 category_id: 18000,
@@ -401,7 +401,7 @@ invalid_count: null
 {
 id: 154148,
 answer: "verify",
-question: "(Sarah of the Clue Crew gives the clue from the Ronald Reagan Library in Simi Valley, CA.) Ronald Reagan held four major summit meetings with Mikhail Gorbachev that led to the signing of the INF Treaty; it was during the 1986 Reykjavik Summit that Reagan began using the old Russian proverb "trust, but..." do this",
+question: "Ronald Reagan held four major summit meetings with Mikhail Gorbachev that led to the signing of the INF Treaty; it was during the 1986 Reykjavik Summit that Reagan began using the old Russian proverb 'trust, but...' do this",
 value: 600,
 airdate: "2014-11-07T12:00:00.000Z",
 category_id: 18000,
@@ -411,7 +411,7 @@ invalid_count: null
 {
 id: 154154,
 answer: "G7",
-question: "(Kelly of the Clue Crew gives the clue from the Ronald Reagan Library in Simi Valley, CA.) The stateroom on Air Force One allowed Reagan to work in private while traveling, like in 1982, en route to a meeting of this economic group that in 2014 went back to its original alphanumeric name",
+question: "The stateroom on Air Force One allowed Reagan to work in private while traveling, like in 1982, en route to a meeting of this economic group that in 2014 went back to its original alphanumeric name",
 value: 800,
 airdate: "2014-11-07T12:00:00.000Z",
 category_id: 18000,
@@ -421,7 +421,7 @@ invalid_count: null
 {
 id: 154160,
 answer: "Libya",
-question: "(Kelly of the Clue Crew gives the clue from the Ronald Reagan Library in Simi Valley, CA.) On August 19, 1981, an international incident occurred when two U.S. Navy F-14s flying patrol over the Gulf of Sidra were attacked by two fighter jets flown by this country; the Tomcats returned fire, downing both enemy aircraft",
+question: "On August 19, 1981, an international incident occurred when two U.S. Navy F-14s flying patrol over the Gulf of Sidra were attacked by two fighter jets flown by this country; the Tomcats returned fire, downing both enemy aircraft",
 value: null,
 airdate: "2014-11-07T12:00:00.000Z",
 category_id: 18000,
@@ -431,7 +431,7 @@ invalid_count: null
 {
 id: 130677,
 answer: "(Margaret) Thatcher",
-question: "(Sarah of the Clue Crew gives the clue from the Ronald Reagan Library in Simi Valley, CA.) This fine china was among the White House dinnerware used in the formal state dinners hosted by the Reagans; the first, in 1981, & the last, in 1988, both honored this world leader, who was accompanied by her husband Denis",
+question: "This fine china was among the White House dinnerware used in the formal state dinners hosted by the Reagans; the first, in 1981, & the last, in 1988, both honored this world leader, who was accompanied by her husband Denis",
 value: 200,
 airdate: "2014-11-07T12:00:00.000Z",
 category_id: 18000,
@@ -458,7 +458,7 @@ invalid_count: null
 {
 id: 123928,
 answer: "<i>House</i>",
-question: "On Fox: "Are you this rude to all your patients?" "Yes. Don't think you're special"",
+question: "On Fox: 'Are you this rude to all your patients?' 'Yes. Don't think you're special'",
 value: 400,
 airdate: "2014-05-19T12:00:00.000Z",
 category_id: 17000,
@@ -468,7 +468,7 @@ invalid_count: null
 {
 id: 123934,
 answer: "<i>The A-Team</i>",
-question: "Hannibal Smith, on an NBC show: "I love it when a plan comes together"",
+question: "Hannibal Smith, on an NBC show: 'I love it when a plan comes together'",
 value: 600,
 airdate: "2014-05-19T12:00:00.000Z",
 category_id: 17000,
@@ -478,7 +478,7 @@ invalid_count: null
 {
 id: 123940,
 answer: "<i>Homeland</i>",
-question: "On Showtime: lockhart is "the head of the Senate intelligence committee, not some civilian... monkey"",
+question: "On Showtime: lockhart is 'the head of the Senate intelligence committee, not some civilian... monkey'",
 value: 800,
 airdate: "2014-05-19T12:00:00.000Z",
 category_id: 17000,
@@ -488,7 +488,7 @@ invalid_count: null
 {
 id: 123946,
 answer: "<i>WKRP in Cincinnati</i>",
-question: "On CBS: "As god is my witness, I thought turkeys could fly"",
+question: "On CBS: 'As god is my witness, I thought turkeys could fly'",
 value: 1000,
 airdate: "2014-05-19T12:00:00.000Z",
 category_id: 17000,
@@ -508,7 +508,7 @@ invalid_count: null
 {
 id: 147297,
 answer: "<i>House</i>",
-question: "On Fox: "Are you this rude to all your patients?" "Yes. Don't think you're special"",
+question: "On Fox: 'Are you this rude to all your patients?' 'Yes. Don't think you're special'",
 value: 400,
 airdate: "2014-05-19T12:00:00.000Z",
 category_id: 17000,
@@ -518,7 +518,7 @@ invalid_count: null
 {
 id: 147303,
 answer: "<i>The A-Team</i>",
-question: "Hannibal Smith, on an NBC show: "I love it when a plan comes together"",
+question: "Hannibal Smith, on an NBC show: 'I love it when a plan comes together'",
 value: 600,
 airdate: "2014-05-19T12:00:00.000Z",
 category_id: 17000,
@@ -528,7 +528,7 @@ invalid_count: null
 {
 id: 147309,
 answer: "<i>Homeland</i>",
-question: "On Showtime: lockhart is "the head of the Senate intelligence committee, not some civilian... monkey"",
+question: "On Showtime: lockhart is 'the head of the Senate intelligence committee, not some civilian... monkey'",
 value: 800,
 airdate: "2014-05-19T12:00:00.000Z",
 category_id: 17000,
@@ -538,7 +538,7 @@ invalid_count: null
 {
 id: 147315,
 answer: "<i>WKRP in Cincinnati</i>",
-question: "On CBS: "As god is my witness, I thought turkeys could fly"",
+question: "On CBS: 'As god is my witness, I thought turkeys could fly'",
 value: 1000,
 airdate: "2014-05-19T12:00:00.000Z",
 category_id: 17000,
@@ -575,7 +575,7 @@ invalid_count: null
 {
 id: 117171,
 answer: "Uganda",
-question: "As he is gay, the passage of the "Kill the Gay's" bill in Kampala in this country caused Moses Mworeko to seek U.S. asylum",
+question: "As he is gay, the passage of the Kill the Gay's bill in Kampala in this country caused Moses Mworeko to seek U.S. asylum",
 value: 600,
 airdate: "2013-05-03T12:00:00.000Z",
 category_id: 16000,
@@ -617,16 +617,6 @@ id: 140732,
 answer: "the shah",
 question: "Iranian-Egyptian relations were frosted over by Cairo's grant of asylum to this man in 1979",
 value: 400,
-airdate: "2013-05-03T12:00:00.000Z",
-category_id: 16000,
-game_id: 4171,
-invalid_count: null
-},
-{
-id: 140738,
-answer: "Uganda",
-question: "As he is gay, the passage of the "Kill the Gay's" bill in Kampala in this country caused Moses Mworeko to seek U.S. asylum",
-value: 600,
 airdate: "2013-05-03T12:00:00.000Z",
 category_id: 16000,
 game_id: 4171,
@@ -682,7 +672,7 @@ invalid_count: null
 {
 id: 110539,
 answer: "index",
-question: "In economic terms, it follows "cost-of-living" & "consumer price"",
+question: "In economic terms, it follows 'cost-of-living' & 'consumer price'",
 value: 600,
 airdate: "2012-04-23T12:00:00.000Z",
 category_id: 15000,
@@ -692,7 +682,7 @@ invalid_count: null
 {
 id: 110545,
 answer: "Pinky",
-question: "A Pac-Man ghost; use your "brain"",
+question: "A Pac-Man ghost; use your 'brain'",
 value: 800,
 airdate: "2012-04-23T12:00:00.000Z",
 category_id: 15000,
@@ -730,26 +720,6 @@ game_id: 3879,
 invalid_count: null
 },
 {
-id: 134106,
-answer: "index",
-question: "In economic terms, it follows "cost-of-living" & "consumer price"",
-value: 600,
-airdate: "2012-04-23T12:00:00.000Z",
-category_id: 15000,
-game_id: 3879,
-invalid_count: null
-},
-{
-id: 134112,
-answer: "Pinky",
-question: "A Pac-Man ghost; use your "brain"",
-value: 800,
-airdate: "2012-04-23T12:00:00.000Z",
-category_id: 15000,
-game_id: 3879,
-invalid_count: null
-},
-{
 id: 134118,
 answer: "the ring gauge",
 question: "This unit used to measure the diameter of cigars is equal to 1/64 of an inch",
@@ -761,3 +731,4 @@ invalid_count: null
 }
 ]
 }]
+export default categories

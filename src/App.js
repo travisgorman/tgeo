@@ -1,10 +1,13 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import categories from './categories.js'
 
 const App = React.createClass({
+
   getInitialState() {
     return {
+      categories,
       score: 0,
       clue: {
         question: '1st Tuesday after the 1st Monday in November',
@@ -12,14 +15,13 @@ const App = React.createClass({
       }
     }
   },
-  
   render(){
     return (  
       <div className="App">
         <Header 
           tagline={"A game where we tell you answers, and you ask us questions"}
           question={this.state.clue.question}/>
-        <Board />
+        <Board categories={this.state.categories} />
         <Score 
           score={this.state.score} />
       </div>
@@ -40,9 +42,26 @@ const Header = React.createClass({
 
 const Board = React.createClass({
   render() {
-    return (  
+    let categories = this.props.categories;
+    let board = categories
+      .map((category, i)=>{
+        let title = category.title
+        let clues = category.clues
+        return <Category title={title} clues={clues} key={i}/>
+      })
+    return (
       <div className="Board">
-        <p>This is the gameboard. It contains 6 CATEGORIES</p>
+        {board}
+      </div>
+    )
+  }
+})
+
+const Category = React.createClass({
+  render() {
+    return (  
+      <div className="Category">
+        <p>{this.props.title}</p>
       </div>
     )
   }
@@ -57,8 +76,5 @@ const Score = React.createClass({
     )
   }
 })
-
-
-
 
 export default App;
