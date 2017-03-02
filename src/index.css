@@ -1,0 +1,22 @@
+* {
+	box-sizing: border-box;
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.App {
+	background: #E3F19A;
+	height: 100vh;
+}
+.App h2 {
+	margin: 0;
+}
+
+.Board {
+	background: #F5DA55;
+	width: 100%;
+	height: 80vh;
+}
