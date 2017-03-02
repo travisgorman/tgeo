@@ -27,16 +27,16 @@ const App = React.createClass({
   }
 })
 
-// const Header = React.createClass({
-//   render() {
-//     return (  
-//       <header className="App-Header">
-//         <h2>Jeopardy</h2>
-//         <p>{this.props.tagline}</p>
-//       </header>      
-//     )
-//   }
-// })
+const Header = React.createClass({
+  render() {
+    return (  
+      <header className="App-Header">
+        <h2>Jeopardy</h2>
+        <p>{this.props.tagline}</p>
+      </header>      
+    )
+  }
+})
 
 // const Board = React.createClass({
 //   render() {
