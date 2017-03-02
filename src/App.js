@@ -12,22 +12,28 @@ const App = React.createClass({
       clue: {},
     }
   },
+  
   setClue(newClue) {
     this.setState({clue: newClue})
     this.setState({showMod: true})
+  },
+  setScore(value) {
+    let newScore = this.state.score + value;
+    this.setState({score: newScore})
   },
   closeModal() {
     this.setState({showMod: false})
   },
   componentDidUpdate(){
-    console.log('this.state.clue:', this.state.clue )
+    console.log('this.state:', this.state )
   },
   render(){
     if (this.state.showMod) {
       return (  
         <div className="App">
           <Modal
-            closeMod={this.closeMod}
+            closeModal={this.closeModal}
+            setScore={this.setScore}
             value={this.state.clue.value} 
             question={this.state.clue.question} 
             answer={this.state.clue.answer}/>
@@ -35,6 +41,7 @@ const App = React.createClass({
             tagline={this.state.clue.question}/>
           <Board 
             categories={this.state.categories} 
+            setScore={this.setScore}
             setClue={this.setClue}/>
           <Score 
             score={this.state.score} />
@@ -47,6 +54,7 @@ const App = React.createClass({
           tagline={this.state.clue.question}/>
         <Board 
           categories={this.state.categories} 
+          setScore={this.setScore}
           setClue={this.setClue}/>
         <Score 
           score={this.state.score} />
@@ -78,6 +86,7 @@ const Board = React.createClass({
                   title={title} 
                   clues={clues} 
                   key={i} 
+                  setScore={this.props.setScore}
                   setClue={this.props.setClue}/>
         )
       })
@@ -98,6 +107,7 @@ const Category = React.createClass({
                   value={clue.value}
                   question={clue.question}
                   answer={clue.answer}
+                  setScore={this.props.setScore}
                   setClue={this.props.setClue}
                   key={i}/>
         )
@@ -127,16 +137,25 @@ const Clue = React.createClass({
 })
 
 const Modal = React.createClass({
-
+  submitHandler(e) {
+    e.preventDefault()
+    let guess = this.refs.answer.value;
+    if (guess === this.props.answer) {
+     this.props.setScore(this.props.value)
+     this.props.closeModal;
+    }
+  },
   render() {
     return (  
       <div className="Modal">
+        <button onClick={this.props.closeModal}>cancel</button>
+
         <main>
           <form onSubmit={this.submitHandler}>
             <p>{this.props.question}</p>
             <input type="text" ref="answer"/>
             <input type="submit" value="submit"/>
-            <button onClick={this.props.closeMod} >cancel</button>
+            <p>{this.props.answer}</p>
           </form>       
         </main> 
       </div>
