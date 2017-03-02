@@ -4,7 +4,6 @@ import './App.css';
 import categories from './categories.js'
 
 const App = React.createClass({
-
   getInitialState() {
     return {
       categories,
@@ -43,12 +42,14 @@ const Header = React.createClass({
 const Board = React.createClass({
   render() {
     let categories = this.props.categories;
+  
     let board = categories
       .map((category, i)=>{
         let title = category.title
         let clues = category.clues
         return <Category title={title} clues={clues} key={i}/>
       })
+
     return (
       <div className="Board">
         {board}
@@ -58,14 +59,43 @@ const Board = React.createClass({
 })
 
 const Category = React.createClass({
+
   render() {
+    // let values = this.props.clues
+    //   .map((clue, i)=> {
+    //     return (  
+    //       <div className="value">
+    //         <h4>{clue.value}</h4>
+    //       </div>
+    //     )
+    //   })
+
+// renders this.props.title and maps this.props.clues, rendering a Clue for each item in the array
+// passes attributes value, question, & answer
+  let clues = this.props.clues
+    .map((clue, i)=>{
+      return <Clue value={clue.value} question={clue.question} answer={clue.answer} key={i} />
+    })
+  
     return (  
       <div className="Category">
         <p>{this.props.title}</p>
+        {clues}
       </div>
     )
   }
 })
+
+const Clue = React.createClass({
+  render() {
+    return (  
+      <div className="Clue">
+        <h2>{this.props.value}</h2>
+      </div>
+    )
+  }
+})
+
 
 const Score = React.createClass({
   render() {
