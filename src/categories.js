@@ -63,7 +63,7 @@ let categories =
 	clues: [
 			{
 				id: 156654,
-				answer: "mat (in der<b>mat</b>ology)",
+				answer: "mat in dermatology",
 				question: "A small rug inside the study of the skin",
 				value: 200,
 				airdate: "2015-01-27T12:00:00.000Z",
@@ -73,7 +73,7 @@ let categories =
 			},
 			{
 				id: 156660,
-				answer: "pet (in her<b>pet</b>ology)",
+				answer: "pet in herpetology",
 				question: "A companion animal inside the study of reptiles & amphibians",
 				value: 400,
 				airdate: "2015-01-27T12:00:00.000Z",
@@ -83,7 +83,7 @@ let categories =
 			},
 			{
 				id: 156666,
-				answer: "hem (in c<b>hem</b>istry)",
+				answer: "hem in chemistry",
 				question: "A dress bottom inside the study of the elements",
 				value: 600,
 				airdate: "2015-01-27T12:00:00.000Z",
@@ -93,7 +93,7 @@ let categories =
 			},
 			{
 				id: 156672,
-				answer: "atom (in an<b>atom</b>y)",
+				answer: "atom in anatomy",
 				question: "An elemental unit inside the study of the physical structure of the human body",
 				value: 800,
 				airdate: "2015-01-27T12:00:00.000Z",
@@ -103,7 +103,7 @@ let categories =
 			},
 			{
 				id: 156678,
-				answer: "tic (in statis<b>tic</b>s)",
+				answer: "tic in statistics",
 				question: "An involuntary movement inside the science of data collection & analysis",
 				value: 1000,
 				airdate: "2015-01-27T12:00:00.000Z",
@@ -160,7 +160,7 @@ let categories =
 			},
 			{
 			id: 154136,
-			answer: "(Margaret) Thatcher",
+			answer: "Margaret Thatcher",
 			question: "This fine china was among the White House dinnerware used in the formal state dinners hosted by the Reagans; the first, in 1981, & the last, in 1988, both honored this world leader, who was accompanied by her husband Denis",
 			value: 1000,
 			airdate: "2014-11-07T12:00:00.000Z",
@@ -177,7 +177,7 @@ let categories =
 		clues: [
 			{
 				id: 123922,
-				answer: "<i>The Monty Python Show</i>",
+				answer: "The Monty Python Show",
 				question: "From the BBC: 'And now for something completely different'",
 				value: 200,
 				airdate: "2014-05-19T12:00:00.000Z",
@@ -187,7 +187,7 @@ let categories =
 			},
 			{
 				id: 123928,
-				answer: "<i>House</i>",
+				answer: "House",
 				question: "On Fox: 'Are you this rude to all your patients?' 'Yes. Don't think you're special'",
 				value: 400,
 				airdate: "2014-05-19T12:00:00.000Z",
@@ -197,7 +197,7 @@ let categories =
 			},
 			{
 				id: 123934,
-				answer: "<i>The A-Team</i>",
+				answer: "The A-Team",
 				question: "Hannibal Smith, on an NBC show: 'I love it when a plan comes together'",
 				value: 600,
 				airdate: "2014-05-19T12:00:00.000Z",
@@ -207,7 +207,7 @@ let categories =
 			},
 			{
 				id: 123940,
-				answer: "<i>Homeland</i>",
+				answer: "Homeland",
 				question: "On Showtime: lockhart is 'the head of the Senate intelligence committee, not some civilian... monkey'",
 				value: 800,
 				airdate: "2014-05-19T12:00:00.000Z",
@@ -217,7 +217,7 @@ let categories =
 			},
 			{
 				id: 123946,
-				answer: "<i>WKRP in Cincinnati</i>",
+				answer: "WKRP in Cincinnati",
 				question: "On CBS: 'As god is my witness, I thought turkeys could fly'",
 				value: 1000,
 				airdate: "2014-05-19T12:00:00.000Z",
