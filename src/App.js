@@ -61,12 +61,61 @@ const App = React.createClass({
 })
 
 const Board = React.createClass({
+  render() {
+    let board = this.props.categories.map((category, i) => {
+      return (  
+       <Category 
+          key={i}
+          clue={this.props.clue}
+          setClue={this.props.setClue}
+          showModal={this.props.showModal}
+          title={category.title}
+          clues={category.clues} /> 
+      )        
+    })
+    return (  
+      <div className="Board">
+        {board}
+      </div>
+    )
+  }
+})
+
+const Category = React.createClass({
+//
+  render() {
+    let clues = this.props.clues
+      .map((clue, i) => {
+        <Clue 
+          key={i}
+          setClue={this.props.setClue}
+          showModal={this.props.showModal}
+          value={clue.value}
+          question={clue.question}
+          answer={clue.answer} />
+      })
+    return (  
+      <div className="Category">
+        <section className="title">
+          {this.props.title}
+        </section>
+        {clues}
+      </div>
+    )
+  }
+})
+
+const Clue = React.createClass({
 //
   render() {
     return (  
-      <div className="Board">
-        BOARD
-      </div>
+      <article 
+        className="Clue" 
+        onClick={this.props.closeModal}>
+        <h1 className="value">
+          {this.props.value}
+        </h1>
+      </article>
     )
   }
 })
@@ -88,7 +137,7 @@ const Score = React.createClass({
   render() {
     return (  
       <div className="Score">
-        SCORE
+        <p>Your score is $ {this.props.score}</p>
       </div>
     )
   }
